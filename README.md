@@ -1,5 +1,12 @@
 # ObjectDetectionJs
-
+   ~ git clone  
+   ~ cd <'project Dir'>  
+   ~ npm install  
+   ~ ng serve  
+   // open browser on localhost:4200
+   
+   // in app.component there are 2 components uncomment to play  with img detection and live video stream detection
+          
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
 ## Development server

@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './components/test.component';
+import { ImgObjectDetectComponent } from './components/img-object-detect.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { VideoObjectDetectComponent } from './components/video-object-detect.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    ImgObjectDetectComponent,
+    VideoObjectDetectComponent
   ],
   imports: [
     BrowserModule,

@@ -125,7 +125,7 @@ import * as cocoSsd from '@tensorflow-models/coco-ssd';
   `]
 })
 
-export class TestComponent implements OnInit {
+export class ImgObjectDetectComponent implements OnInit {
 
   @ViewChild('cat', {static: true}) cat: ElementRef;
   @ViewChild('canvas', {static: true}) canvas: ElementRef;
