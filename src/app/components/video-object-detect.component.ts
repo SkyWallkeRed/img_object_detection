@@ -21,7 +21,7 @@ window.stream = window.stream || {};
              width="720"
              height="600"
       ></video>
-      <canvas style="display: block;margin: auto; position: absolute; top: 70px; left: 0px " #canvas width="720" height="650"></canvas>
+      <canvas style="display: block;margin: auto; position: absolute; top: 70px; left: 30px " #canvas width="720" height="600"></canvas>
     </div>
   `
 })
