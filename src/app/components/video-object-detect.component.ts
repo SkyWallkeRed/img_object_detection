@@ -6,7 +6,6 @@ declare global {
     stream: any;
   }
 }
-
 window.stream = window.stream || {};
 
 @Component({
@@ -17,12 +16,12 @@ window.stream = window.stream || {};
       <video #video
              autoPlay
              muted
-             style="display: block; margin: auto "
+             style="display: block; margin: auto; position: absolute"
              src=""
              width="720"
              height="600"
       ></video>
-      <canvas style="display: block;margin: auto; position: absolute; top: 0; left: 360px " #canvas width="720" height="650"></canvas>
+      <canvas style="display: block;margin: auto; position: absolute; top: 70px; left: 0px " #canvas width="720" height="650"></canvas>
     </div>
   `
 })
